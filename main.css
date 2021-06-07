@@ -1,0 +1,144 @@
+body {
+  margin: 0 auto;
+
+
+}
+/* Header */
+header {
+  height: 55px;
+  width: 100%;
+  background-color: rgb(27, 155, 230);
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.header-logo a {
+  float: left;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  
+}
+.header-logo a:hover{
+  
+}
+
+.header-logo .material-icons {
+  font-size: 14px;
+  padding-bottom: 2px;
+}
+
+.header-list ul {
+  float: right;
+  margin: 0 auto;
+}
+
+.header-list li {
+  float: left;
+  list-style: none;
+}
+
+.header-list a {
+  color: white;
+  background-color: rgba(128, 128, 128, 0.3);
+  text-align: center;
+  margin: 5px;
+  padding: 10px;
+  line-height: 20px;
+  width: 50px;
+  text-decoration: none;
+  font-size: 12px;
+  border-radius: 15px;
+  display: block;
+}
+
+.header-list a:hover {
+  background-color: rgba(128, 128, 128, 0.5);
+}
+/* Header - End */
+
+/* Body */
+.container {
+  width: 1170px;
+  padding:0 15px;
+  margin:0 auto;
+}
+.lesson{
+  float:left;
+  width:25%;
+ 
+}
+
+.main-wrapper {
+  padding-top: 65px;
+  text-align: center;
+  height: 1000px;
+  background-color: #fff;
+
+}
+.lesson{
+  float:left;
+  width:25%;
+}
+.container{
+  height: 500px;
+    padding-bottom: 80px;
+    background-color: ##d2dae2;
+    text-align: center;
+}
+.container h1{
+  padding-top: 40px;
+  padding-bottom: 30px;
+  font-size: 40px;
+  color:#ff7979;
+  font-family:Arial, Helvetica, sans-serif
+}
+/* pembuatan text*/
+.text{
+ font-size:15px ;
+ color:#b3aeb5;
+}
+.gambar img{
+ width:200px;
+ height: 300px;
+ transition: width 2s, height 4s ;
+}
+/* pembuatan animasi*/
+
+.gambar img:hover{
+  width:250px;
+  height: 350px;
+
+}
+.gambar p{
+  font-size:30px;
+
+
+}
+
+p .material-icons {
+  font-size: 20px;
+  color: red;
+  padding-top: 20px;
+  
+}
+
+.footer-wrap p{
+  color:white;
+  font-size: 20px;
+}
+footer {
+  height: 100px;
+  margin: 0;
+  
+  width: 100%;
+  text-align: center;
+  background-color: rgba(27, 155, 230, 1);
+}
+
+.footer-wrap p {
+  padding-top: 15px;
+}
